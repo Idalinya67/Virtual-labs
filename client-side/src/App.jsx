@@ -15,7 +15,7 @@ import PageNotFound from './Front-end/PageNotFound'
 function App() {
   return (
     <AuthProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/Virtual-labs">
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/signin" element={<SignIn />} />
