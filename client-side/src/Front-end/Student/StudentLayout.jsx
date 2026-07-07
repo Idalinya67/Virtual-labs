@@ -5,7 +5,7 @@ export default function StudentLayout() {
   const { user, signOut } = useAuth()
 
   return (
-    <div className="min-h-screen bg-slate-50">
+    <div className="min-h-screen bg-slate-50 blueprint-grid">
       <header className="bg-white border-b border-slate-200">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between gap-3">
           <Link to="/app" className="text-lg font-bold text-brand-700 shrink-0">Vatual Labs</Link>
