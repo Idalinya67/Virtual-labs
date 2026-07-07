@@ -23,7 +23,7 @@ const practicals = [
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen bg-white text-slate-800">
+    <div className="min-h-screen bg-white text-slate-800 blueprint-grid">
       <header className="max-w-6xl mx-auto flex items-center justify-between px-6 py-5">
         <div className="text-xl font-bold text-brand-700">Vatual Labs</div>
         <Link
