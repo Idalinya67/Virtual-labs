@@ -13,7 +13,7 @@ export default function SignIn() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-brand-50 blueprint-grid px-4">
-      <div className="w-full max-w-sm bg-white rounded-2xl shadow-lg p-8 text-center">
+      <div className="w-full max-w-sm bg-brand-50 shadow-lg p-8 text-center">
         <div className="text-3xl font-bold text-brand-700 mb-1">Vatual Labs</div>
         <p className="text-slate-500 mb-8">Sign in to start your practicals</p>
 

@@ -90,7 +90,7 @@ export default function LandingPage() {
         <p className="text-slate-500 text-center mb-10">Three lessons from the current sample set</p>
         <div className="grid md:grid-cols-3 gap-6">
           {practicals.map((p) => (
-            <div key={p.title} className="border border-slate-200 rounded-xl p-6 hover:shadow-md transition">
+            <div key={p.title} className="border border-slate-200 bg-brand-50 p-6 hover:shadow-md transition">
               <div className="text-3xl mb-3">{p.emoji}</div>
               <div className="text-xs font-medium text-brand-600 mb-2">{p.tag}</div>
               <h3 className="font-semibold text-lg text-slate-900 mb-2">{p.title}</h3>

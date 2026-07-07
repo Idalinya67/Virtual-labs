@@ -56,11 +56,11 @@ export default function PracticalShell({ slug, strand, title, outcome, reflectio
         {outcome}
       </p>
 
-      <div className="bg-white border border-slate-200 rounded-xl p-4 sm:p-6 mb-8">
+      <div className="bg-brand-50 border border-slate-200 p-4 sm:p-6 mb-8">
         {children}
       </div>
 
-      <div className="bg-white border border-slate-200 rounded-xl p-4 sm:p-6">
+      <div className="bg-brand-50 border border-slate-200 p-4 sm:p-6">
         <h2 className="font-semibold text-slate-900 mb-3">Reflection</h2>
         <p className="text-slate-500 text-sm mb-4">{reflection}</p>
         {loading ? (

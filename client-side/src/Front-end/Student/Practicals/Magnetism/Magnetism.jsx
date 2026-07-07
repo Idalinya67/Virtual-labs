@@ -326,7 +326,7 @@ function UsesCards() {
         <button
           key={u.label}
           onClick={() => setOpenIndex(openIndex === i ? null : i)}
-          className="text-left border border-slate-200 rounded-xl p-4 hover:border-brand-300 hover:shadow-sm transition"
+          className="text-left border border-slate-200 p-4 hover:border-brand-300 hover:shadow-sm transition"
         >
           <div className="text-2xl mb-2">{u.emoji}</div>
           <div className="font-medium text-slate-900 text-sm mb-1">{u.label}</div>

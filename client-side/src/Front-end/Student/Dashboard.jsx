@@ -76,7 +76,7 @@ export default function Dashboard() {
             <Link
               key={p.slug}
               to={`/app/practicals/${p.slug}`}
-              className="relative block border border-slate-200 bg-white rounded-xl p-6 hover:shadow-md hover:border-brand-300 transition"
+              className="relative block border border-slate-200 bg-brand-50 p-6 hover:shadow-md hover:border-brand-300 transition"
             >
               {isDone && (
                 <span className="absolute top-4 right-4 text-xs font-medium bg-emerald-50 text-emerald-600 px-2 py-0.5 rounded-full">

@@ -215,7 +215,7 @@ export default function SeparatingMixtures() {
               <button
                 key={m.id}
                 onClick={() => pickMixture(m.id)}
-                className="text-left border border-slate-200 rounded-xl p-4 hover:border-brand-300 hover:shadow-sm transition"
+                className="text-left border border-slate-200 p-4 hover:border-brand-300 hover:shadow-sm transition"
               >
                 <div className="text-2xl mb-2">{m.emoji}</div>
                 <div className="font-medium text-slate-900 text-sm mb-1">{m.label}</div>
